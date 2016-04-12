@@ -10,9 +10,4 @@ android:
     - extra-android-m2repository
     - extra-google-google_play_services
     - extra-google-m2repository
-    - addon-google_apis-google-19
 sudo: required
-dependencies:
-  pre:
-    - echo y | android update sdk --no-ui --all --filter "tools"
-    - echo y | android update sdk --no-ui --all --filter "build-tools-23.0.2"
